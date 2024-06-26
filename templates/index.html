@@ -57,7 +57,7 @@
     </style>
 </head>
 <body>
-    <h1>CRUZ LUNA ARLETTE 20210655</h1>
+    <h1>ARLETTE CRUZ LUNA 20210655</h1>
     <h2>Predicción de Resistencia del Concreto</h2>
     
     {% if error %}
@@ -65,22 +65,22 @@
     {% endif %}
     
     <form action="/" method="post">
-        <label for="cement">Cement (102 a 540):</label>
+        <label for="cement">Cemento (102 a 540):</label>
         <input type="number" id="cement" name="cement" min="102" max="540" step="any" required>
         
-        <label for="slag">Blast Furnace Slag (0 a 359):</label>
+        <label for="slag">Escoria de Alto Horno (0 a 359):</label>
         <input type="number" id="slag" name="slag" min="0" max="359" step="any" required>
         
-        <label for="water">Water (122 a 247):</label>
+        <label for="water">Agua (122 a 247):</label>
         <input type="number" id="water" name="water" min="122" max="247" step="any" required>
         
-        <label for="superplasticizer">Superplasticizer (0 a 32.2):</label>
+        <label for="superplasticizer">Superplastificante (0 a 32.2):</label>
         <input type="number" id="superplasticizer" name="superplasticizer" min="0" max="32.2" step="any" required>
         
-        <label for="coarse_agg">Coarse Aggregate (801 a 1150):</label>
+        <label for="coarse_agg">Agregado grueso (801 a 1150):</label>
         <input type="number" id="coarse_agg" name="coarse_agg" min="801" max="1150" step="any" required>
         
-        <label for="age">Age (1 a 365):</label>
+        <label for="age">Edad (1 a 365):</label>
         <input type="number" id="age" name="age" min="1" max="365" required>
         
         <input type="submit" value="Predecir Resistencia">
